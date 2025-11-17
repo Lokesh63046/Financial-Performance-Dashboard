@@ -150,17 +150,26 @@ Data Analyst
 Reporting Analyst
 
 **📸 Screenshots:**
+All dashboard screenshots are placed inside the
+Documentation/Dashboard_Screenshots/ folder of this repository.
 
-![Full Dashboard](Documentation/Dashboard_Screenshots/full_dashboard.png)
-![KPIs](Documentation/Dashboard_Screenshots/kpi_cards.png)
-![Trend](Documentation/Dashboard_Screenshots/revenue_trend.png)
-![Expenses](Documentation/Dashboard_Screensshots/expense_comparison.png)
-![Distribution](Documentation/Dashboard_Screenshots/pie_chart.png)
+You can find the following images:
+
+👉 full_dashboard.png – Complete dashboard overview
+
+👉 kpi_cards.png – Key Performance Indicators section
+
+👉 revenue_trend.png – Revenue vs Net Profit line chart
+
+👉 Expense_comparison.png – Operating vs Marketing expenses bar chart
+
+👉 pie_chart.png – Expense distribution visual
 
 **👤 Author**
 
 Bainaboina Lokesh
 Business Analyst | Data Analytics | Power BI
+
 🔗 LinkedIn: https://linkedin.com/in/lokesh-bainaboina
 
 🔗 GitHub: https://github.com/Lokesh63046
