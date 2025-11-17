@@ -1,9 +1,9 @@
-📊 Financial Performance Dashboard – Power BI Project
+**📊 Financial Performance Dashboard – Power BI Project**
 
 This project is an interactive Power BI dashboard designed to analyze a company’s financial performance across 12 months.
-It showcases Revenue, Expenses, Profit, and Target Achievement, making it an ideal portfolio project for Business Analyst, Data Analyst, and Power BI roles.
+It showcases **Revenue**, **Expenses**, **Profit**, and **Target Achievement**, making it an ideal portfolio project for **Business Analyst**, **Data Analyst**, and **Power BI roles**.
 
-🚀 Project Overview
+**🚀 Project Overview:**
 
 The purpose of this dashboard is to:
 
@@ -31,7 +31,7 @@ DAX calculations
 
 Dashboard design principles
 
-📁 Project Structure
+**📁 Project Structure:**
 Financial-Performance-Dashboard/
 │
 ├── Data/
@@ -50,7 +50,7 @@ Financial-Performance-Dashboard/
 │
 └── README.md
 
-🧩 Dataset Details (financial_data.csv)
+**🧩 Dataset Details:**
 
 The dataset contains 12 months of simplified financial data.
 
@@ -60,27 +60,23 @@ Revenue	Total monthly revenue
 Operating_Expense	Operational costs
 Marketing_Expense	Marketing-related expenses
 Target_Revenue	Monthly business target
-📐 DAX Measures Used
+
+**📐 DAX Measures Used:**
 
 1️⃣ Net Profit
 Net Profit =
-SUM(financial_data[Revenue]) -
-(SUM(financial_data[Operating_Expense]) + SUM(financial_data[Marketing_Expense]))
+SUM(financial_data[Revenue]) - (SUM(financial_data[Operating_Expense]) + SUM(financial_data[Marketing_Expense]))
 
 2️⃣ Total Expense
-Total Expense =
-SUM(financial_data[Operating_Expense]) + SUM(financial_data[Marketing_Expense])
+Total Expense = SUM(financial_data[Operating_Expense]) + SUM(financial_data[Marketing_Expense])
 
 3️⃣ Profit %
-Profit % =
-DIVIDE([Net Profit], SUM(financial_data[Revenue]), 0)
+Profit % = DIVIDE([Net Profit], SUM(financial_data[Revenue]), 0)
 
 4️⃣ Target Achievement
-Target Achievement =
-DIVIDE(SUM(financial_data[Revenue]),
-SUM(financial_data[Target_Revenue]), 0)
+Target Achievement = DIVIDE(SUM(financial_data[Revenue]), SUM(financial_data[Target_Revenue]), 0)
 
-📊 Dashboard Features
+****📊 Dashboard Features
 ⭐ KPIs (Top Section)
 
 Total Revenue
@@ -91,19 +87,19 @@ Net Profit
 
 Target Achievement %
 
-📈 Revenue vs Net Profit Trend (Line Chart)
+**📈 Revenue vs Net Profit Trend (Line Chart):**
 
 Shows growth and seasonal trends.
 
-📊 Operating vs Marketing Expense (Column Chart)
+**📊 Operating vs Marketing Expense (Column Chart):**
 
 Compares two expense categories month-wise.
 
-🥧 Expense Distribution (Pie Chart)
+🥧 **Expense Distribution (Pie Chart):**
 
 Shows which expense category is heavier.
 
-📋 Summary Table
+**📋 Summary Table**
 
 Month-wise:
 
@@ -113,7 +109,7 @@ Net Profit
 
 Target Achievement
 
-🛠 Tools Used
+**🛠 Tools Used:**
 
 Power BI Desktop
 
@@ -123,7 +119,7 @@ CSV Dataset (Custom)
 
 Excel (for basic preprocessing)
 
-🎯 Purpose of This Project
+**🎯 Purpose of This Project**
 
 This project is built to strengthen portfolio skills in:
 
@@ -147,9 +143,7 @@ Data Analyst
 
 Reporting Analyst
 
-📸 Screenshots
-
-(Add your real screenshots in the folder and display them like this)
+**📸 Screenshots:**
 
 ![Full Dashboard](Documentation/Dashboard_Screenshots/full_dashboard.png)
 ![KPIs](Documentation/Dashboard_Screenshots/kpi_cards.png)
@@ -157,7 +151,7 @@ Reporting Analyst
 ![Expenses](Documentation/Dashboard_Screensshots/expense_comparison.png)
 ![Distribution](Documentation/Dashboard_Screenshots/pie_chart.png)
 
-👤 Author
+**👤 Author**
 
 Bainaboina Lokesh
 Business Analyst | Data Analytics | Power BI
@@ -165,7 +159,7 @@ Business Analyst | Data Analytics | Power BI
 
 🔗 GitHub: https://github.com/Lokesh63046
 
-📝 How to Run This Project
+**📝 How to Run This Project**
 
 Download repository
 
