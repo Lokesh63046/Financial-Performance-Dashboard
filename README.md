@@ -34,19 +34,25 @@ Dashboard design principles
 **📁 Project Structure:**
 Financial-Performance-Dashboard/
 │
+
 ├── Data/
+
 │   └── financial_data.csv
 │
+
 ├── PowerBI/
 │   └── Financial_Performance_Dashboard.pbix
+
 │
 ├── Documentation/
+
 │   └── Dashboard_Screenshots/
 │       ├── full_dashboard.png
 │       ├── kpi_cards.png
 │       ├── revenue_trend.png
 │       ├── expense_comparison.png
 │       └── pie_chart.png
+
 │
 └── README.md
 
