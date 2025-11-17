@@ -61,6 +61,7 @@ Operating_Expense	Operational costs
 Marketing_Expense	Marketing-related expenses
 Target_Revenue	Monthly business target
 📐 DAX Measures Used
+
 1️⃣ Net Profit
 Net Profit =
 SUM(financial_data[Revenue]) -
